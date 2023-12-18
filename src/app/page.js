@@ -1,7 +1,9 @@
+"use client"
 import Head from "next/head";
 import Image from "next/image";
 import Header from "./components/Header";
 import Feed from "./components/Feed";
+import PrivateComponent from "./auth/privatecomponent/page";
 
 export default function Home() {
   return (
