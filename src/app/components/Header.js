@@ -14,13 +14,13 @@ export default function Header() {
         <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
           <div className="h-24 w-24 relative hidden lg:inline-grid cursor-pointer">
             <Link href="/">
-              <Image
+              {/* <Image
                 src={LogoDesktop}
                 alt="Logo"
                 layout="fill"
                 className="object-contain"
-              />
-            </Link>
+              /> */}
+            </Link> Deepika Female
           </div>
           <div className="h-24 w-10 relative lg:hidden cursor-pointer">
             <Image
@@ -28,7 +28,7 @@ export default function Header() {
               alt="Logo"
               layout="fill"
               className="object-contain"
-            />
+            /> 
           </div>
           <div className="relative mt-1">
             <div className="absolute top-2 left-2">
